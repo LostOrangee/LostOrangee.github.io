@@ -200,6 +200,67 @@ body{
     text-shadow:
         2px 2px 8px rgba(0,0,0,.9);
 }
+/* ---------------- CONTACT ---------------- */
+
+#contact{
+
+    position:absolute;
+
+    top:1850px;
+
+    width:100%;
+
+    text-align:center;
+
+    padding-bottom:100px;
+}
+
+#contact h2{
+
+    font-family:"Blackhood", serif;
+
+    font-size:3rem;
+
+    margin-bottom:30px;
+
+    color:hotpink;
+
+    text-shadow:
+        3px 3px 10px rgba(0,0,0,.8);
+}
+
+.contact-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    flex-wrap:wrap;
+}
+
+.contact-links a,
+.contact-links a:visited{
+
+    color:hotpink;
+
+    text-decoration:none;
+
+    font-size:1.2rem;
+
+    text-shadow:
+        2px 2px 8px rgba(0,0,0,.9);
+
+    transition:.2s;
+}
+
+.contact-links a:hover{
+
+    transform:translateY(-3px);
+
+    opacity:.8;
+}
 
 /* ---------------- MOBILE ---------------- */
 
@@ -235,4 +296,7 @@ body{
     color:hotpink;
 
     text-decoration:none;
+}
+#contact{
+    top:1886px;
 }
